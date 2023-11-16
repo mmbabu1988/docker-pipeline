@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('mmbabu88-dockerhub')
+    DOCKERHUB_CREDENTIALS = credentials('mmbabu88')
     }
     stages { 
         stage('SCM Checkout') {
